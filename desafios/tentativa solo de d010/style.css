@@ -1,0 +1,97 @@
+@charset "UTF-8";
+body{
+    background-color: bisque;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+}
+header{
+    width: auto;
+    height: 175px;
+    background-color: green;
+    color: white;
+    margin-top: -20px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+header > h1{
+    padding: 20px;
+    text-align: center;
+}
+header > p{
+    text-align: center;
+}
+nav > a{
+    text-decoration: none;
+    color: white;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+ nav > a:hover{
+    background-color: rgb(4, 70, 10);
+}
+#casa{
+    padding-left: 10px;
+}
+strong{
+    color: green;
+}
+main{
+    height: 2800px;
+    max-width: 900px;
+    min-width: 200px;
+    background-color: white;
+    margin: 0px auto 0px auto;
+    padding: 20px 20px 50px 20px;
+}
+main > h2{
+    color: rgb(9, 58, 9);
+}
+.texto3{
+    color: green;
+    background-image: linear-gradient(to left, white, rgba(129, 218, 129, 0.719));
+}
+#mascote{
+    width: 600px;
+    
+}
+.fala{
+    color: rgb(4, 70, 4);
+    text-decoration: none;
+    background-color: rgb(18, 189, 18);
+}
+#criadora{
+    width: 900px;
+}
+#atual{
+    width: 220px;
+    padding-left: 345px;
+}
+section{
+    width: 900px;
+    height: 500px;
+    background-color: rgba(65, 204, 65, 0.671);
+    margin: auto;
+    border-radius: 10px;
+
+}
+section > h3 {
+    color: white;
+    padding: 2px 0px 5px 5px;
+    background-color: green;
+    border-radius: 10px 10px 0px 0px;
+}
+footer{
+    
+    text-align: center;
+    color: white;
+    background-color: green;
+    padding-bottom: 10px;
+    margin: 2px;
+}
+footer > p{
+    padding-bottom: 10px;
+}
+iframe{
+    position: relative;
+}
+
