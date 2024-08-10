@@ -1,0 +1,83 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilização geral */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: #ffeb3b; /* Cor vibrante para o cabeçalho */
+    color: #333;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 10px 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+section#about {
+    background: #fff9c4; /* Cor suave para a seção sobre */
+}
+
+section#benefits {
+    background: #e8f5e9; /* Cor suave para a seção de benefícios */
+}
+
+section#recipe {
+    background: #fce4ec; /* Cor suave para a seção de receita */
+}
+
+footer {
+    background: #ffeb3b;
+    color: #333;
+    text-align: center;
+    padding: 1rem 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+a {
+    color: #ffeb3b;
+    text-decoration: underline;
+}
+
+a:hover {
+    text-decoration: none;
+}
